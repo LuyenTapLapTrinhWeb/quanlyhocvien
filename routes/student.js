@@ -22,7 +22,8 @@ var upload = multer({ storage: storage });
 var connection = mysql.createConnection({
 	host: 'localhost',
 	user: 'root',
-	database: 'iscdb'
+	database: 'iscdb',
+	password:"1234"
 });
 connection.connect();
 router.use(bodyParser.json());
