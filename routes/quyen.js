@@ -7,7 +7,8 @@ var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     database: 'iscdb',
-	password:"1234"
+	password:"123456",
+	port:"3333"
 });
 
 connection.connect();
